@@ -2,33 +2,44 @@
 <html>
 
 <head>
+    <title>Kontaktformular-Sonnenstrahlen Versicherungen</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <img src="Sonne.png" alt="Sonne" height="150px" width="auto" id="sun" />
+        <h1>Sonnenstrahlen Versicherungen</h1>
+        <h2>Mit uns in eine bessere Zukunft</h2>
+    </header>
+
     <ul class="navbar">
         <li class="navbarItem"><a href="Krankenzusatzversicherung.html">Start</a></li>
         <li class="navbarItem"><a href="Kontakt.html">Kontakt</a></li>
         <li class="navbarItem"><a href="ÜberUns.html">Über uns</a></li>
     </ul>
-</head>
 
-<body>
-    <form>
-        <label for="vorname"> Vorname:</label> <br>
-        <input type="text" id="vorname" name="vorname"><br>
-        <label for="nachname"> Nachname:</label> <br>
-        <input type="text" id="nachname" name="nachname"><br>
-        <label for="email"> eMail:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="betreff"> Betreff:</label><br>
-        <input type="checkbox" id="betreff" name="betreff">
-        <label for="betreff"> Frage</label><br>
-        <input type="checkbox" id="betreff" name="betreff">
-        <label for="betreff"> Beschwerde</label><br>
-        <input type="checkbox" id="betreff" name="betreff">
-        <label for="betreff"> Anfrage</label><br><br>
-
-        <label for="nachricht"> Ihre Nachricht:</label><br>
-        <input type="text" id="nachricht" name="nachricht"><br>
+    <div class="Kontaktformular">
+        <h2>Kontaktformular:</h2>
+        <form>
+            <label for="vorname"> Vorname:</label> <br>
+            <input type="text" id="vorname" name="vorname"><br> <br>
+            <label for="nachname"> Nachname:</label> <br>
+            <input type="text" id="nachname" name="nachname"><br><br>
+            <label for="email"> E-Mail:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <p>Bitte wählen sie einen Betreff:</p>
+            <select id="Kontaktgrund" name="Kontaktgrund">
+            <option value="Anfrage">Anfrage</option>
+            <option value="Kundenservice">Kundenservice</option>
+            <option value="Beschwerde">Beschwerde</option>
+            <option value="Sonstiges">Sonstiges</option>
+            
+            </select>
+            <br>
+            <br>
+            <textarea>Hier Nachricht eingeben...</textarea>
+    </div>
     </form>
 
 </body>
