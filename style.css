@@ -8,6 +8,20 @@ header {
     padding: 10px;
 }
 
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+hr {
+    color: rgba(107, 107, 107, 0.534);
+    border-top: dotted;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
 #sun {
     float: right;
     margin-right: 40px;
@@ -99,10 +113,6 @@ h6 {
     margin-right: 10%;
 }
 
-#sectionHeader {
-    text-align: center;
-}
-
 #sonnenFrau {
     float: right;
     margin-right: 10%;
@@ -118,37 +128,33 @@ h6 {
     margin-left: 40%;
 }
 
-#comparisonTopic {
+.comparisonTopic {
     font-size: 17px;
     table-layout: fixed;
     text-align: left;
     padding: 15px;
     border: 3px solid rgb(94, 94, 93);
     border-collapse: collapse;
-    background-color: rgb(247, 247, 247);
 }
 
-#comparison {
+#comparisonTable {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comparison {
     font-size: 17px;
     text-align: center;
     table-layout: fixed;
     padding: 15px;
     border: 3px solid rgb(94, 94, 93);
     border-collapse: collapse;
-    background-color: rgb(247, 247, 247);
 }
 
 #comparisonHeader {
     font-weight: bold;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
-#maps {
-    float: left;
-    margin-left: 35%;
-    margin-right: 35%;
-}
+/* Kontakt.html */
