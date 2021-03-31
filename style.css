@@ -1,0 +1,154 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(211, 238, 243);
+    padding: 10px;
+}
+
+#sun {
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 167%;
+}
+
+.navbarItem {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    width: 60%;
+}
+
+aside {
+    width: auto;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(123, 173, 182);
+    /* border-style: groove rgb(37, 113, 141);*/
+    text-shadow: 1.5px 1.5px rgb(200, 255, 250);
+}
+
+#greyList {
+    list-style-type: square;
+    background-color: rgb(247, 247, 247);
+}
+
+h2 {
+    padding: 10px;
+    text-shadow: 1px 1px rgb(104, 172, 189);
+}
+
+h3 {
+    color: rgb(138, 190, 199);
+    font-size: x-large;
+}
+
+h4 {
+    font-size: larger;
+}
+
+h5 {
+    font-style: oblique;
+}
+
+h6 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 380px;
+}
+
+#contactIcon1 {
+    margin-left: 5%;
+    float: left;
+}
+
+#contactIcon2 {
+    float: left;
+    margin-left: 25%;
+}
+
+#contactIcon3 {
+    float: right;
+    margin-right: 10%;
+}
+
+#sectionHeader {
+    text-align: center;
+}
+
+#sonnenFrau {
+    float: right;
+    margin-right: 10%;
+}
+
+#superSonnenFrau {
+    float: left;
+    margin-left: 10%;
+}
+
+#premiumText {
+    text-align: left;
+    margin-left: 40%;
+}
+
+#comparisonTopic {
+    font-size: 17px;
+    table-layout: fixed;
+    text-align: left;
+    padding: 15px;
+    border: 3px solid rgb(94, 94, 93);
+    border-collapse: collapse;
+    background-color: rgb(247, 247, 247);
+}
+
+#comparison {
+    font-size: 17px;
+    text-align: center;
+    table-layout: fixed;
+    padding: 15px;
+    border: 3px solid rgb(94, 94, 93);
+    border-collapse: collapse;
+    background-color: rgb(247, 247, 247);
+}
+
+#comparisonHeader {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#maps {
+    float: left;
+    margin-left: 35%;
+    margin-right: 35%;
+}
