@@ -1,89 +1,107 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.3.2/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.3.2/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.3.2/firebase-performance.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+<head>
+    <title>Sonnenstrahlen Versicherungen</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">   -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+<body>
+    <header>
+        <img src="Sonne.png" alt="Sonne" height="150px" width="auto" id="sun" />
+        <h1>Sonnenstrahlen Versicherungen</h1>
+        <h2>Mit uns in eine bessere Zukunft</h2>
+    </header>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <section>
+        <ul class="navbar">
+            <li class="navbarItem">
+                <a href="Krankenversicherung.html">Start</a>
+            </li>
+            <li class="navbarItem"><a href="Kontakt.html">Kontakt</a></li>
+            <li class="navbarItem"><a href="ÜberUns.html">Über uns</a></li>
+        </ul>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    </section>
+    <article>
+        <br />
+        <h3>Heilpraktiker Zusatzversicherung Basic</h3>
+        <img src="SonnenFrau.jpg" alt="SonnenFrau" height="200px" width="auto" id="sonnenFrau" />
+        <p style="width: 60%">
+            Mit unserer Heilpraktiker Zusatzversicherung Basic für 2,69€ pro Monaten bieten wir ihnen einen umfassende Versorgung im Bereich der Naturheilkunde durch Heilpraktiker. <br /> Zusätzlich sind Besuche bei allen Osteopathen zu mindestens 70%
+            und bei ausgewählten Osteopathen zu 100% versichert. Wir erstatten Ihnen maximal 700 € alle zwei Jahre. Dadurch besteht die Möglichkeit, sofern Sie z.B. im ersten Jahr keine oder wenige Leistungen in Anspruch genommen haben, im Folgejahr die
+            700€ komplett auszuschöpfen. <br /> Im Falle einer benötigten Behandlung im Ausland sind dort ebenfalls alle Leistungen zu mindestens 70% sofern der Maximalbetrag von 70% nicht überschritten wird. Der Tarif ist ohne Altersrückstellungen kalkuliert.
+            Ab dem 20 Lebensjahr steigt daher bis zu dem 70. Lebensjahr der Beitrag um je 10% auf 4,33€.
+        </p>
+        <br />
+        <br />
+        <br />
+        <hr class="HrStyle1">
+        <br />
+        <h3>Heilpraktiker Zusatzversicherung Premium</h3>
+        <img src="SuperSonnenFrau.jpg" alt="SuperSonnenFrau" height="200px" width="auto" id="superSonnenFrau" />
+        <p id="premiumText">
+            Mit unserer Heilpraktiker Zusatzversicherung Premium für 7,69€ pro Monaten bieten wir ihnen einen umfassende Versorgung im Bereich der Naturheilkunde durch Heilpraktiker und Ärzte. <br /> Zusätzlich sind Besuche bei allen Osteopathen zu 100%
+            versichert. Wir erstatten Ihnen maximal 1200 € alle zwei Jahre. Dadurch besteht die Möglichkeit, sofern Sie z.B. im ersten Jahr keine oder wenige Leistungen in Anspruch genommen haben, im Folgejahr die 1200€ komplett auszuschöpfen. <br />            Im Falle einer benötigten Behandlung im Ausland sind dort ebenfalls alle Leistungen zu mindestens 70% sofern der Maximalbetrag von 70% nicht überschritten wird. Der Tarif ist ohne Altersrückstellungen kalkuliert. Ab dem 20 Lebensjahr steigt
+            daher bis zu dem 70. Lebensjahr der Beitrag um je 10% auf 12,38€.
+        </p>
+        <br />
+        <br />
+        <br />
+        <table id="comparisonTable">
+            <tr id="comparisonHeader">
+                <td class="comparisonTopic">Leistungsumfang</td>
+                <td class="comparison">Basic</td>
+                <td class="comparison">Premium</td>
+            </tr>
+            <tr>
+                <td class="comparisonTopic"><b>Kosten</b></td>
+                <td class="comparison">2,69€/Monat</td>
+                <td class="comparison">7,69/Monat</td>
+            </tr>
+            <tr>
+                <td class="comparisonTopic"><b>Naturheilkunde</b></td>
+                <td class="comparison"><span class="material-icons">done</span></td>
+                <td class="comparison"><span class="material-icons">done</span></td>
+            </tr>
+            <tr>
+                <td class="comparisonTopic"><b>Ärztliche Naturheilkunde</b></td>
+                <td class="comparison"><span class="material-icons">clear</span></td>
+                <td class="comparison"><span class="material-icons">done</span></td>
+            </tr>
+            <tr>
+                <td class="comparisonTopic"><b>Osteopathie</b></td>
+                <td class="comparison">mind. 70% Erstattung</td>
+                <td class="comparison">100% Erstattung</td>
+            </tr>
+            <tr>
+                <td class="comparisonTopic"><b>Maximalerstattung</b></td>
+                <td class="comparison">700€ alle 2 Jahre</td>
+                <td class="comparison">1200€ alle 2 Jahre</td>
+            </tr>
+        </table>
+    </article>
+    <footer>
+        <p id="contact">
+            Service und Kontakt <br /> Haben Sie noch Fragen zur Krankenzusatz­versicherung?
+        </p>
+        <a href="tel:+4915782923881"><img src="Telefon.png" alt="Telefon" height="120px" width="auto" id="contactIcon1" /></a>
+        <a href="https://goo.gl/maps/K8NcDwuuZibjBWGG7"><img src="Standort.png" alt="Standort" height="120px" width="auto" id="contactIcon2" /></a>
+        <a href="mailto:st741mar@htwg-konstanz.de"><img src="Mail.png" alt="Mail" height="120px" width="auto" id="contactIcon3" /></a>
+
+        <h6>Impressum | Datenschutz | Nutzungsbedingungen</h6>
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.3.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.3.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
 </html>
