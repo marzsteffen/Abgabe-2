@@ -14,6 +14,8 @@ body {
 }
 
 #sun {
+    height: 150px;
+    width: auto;
     float: right;
     margin-right: 40px;
 }
@@ -30,7 +32,6 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    width: 167%;
 }
 
 .navbarItem {
@@ -96,26 +97,36 @@ h6 {
 }
 
 #contactIcon1 {
+    height: 120px;
+    width: auto;
     margin-left: 8%;
     float: left;
 }
 
 #contactIcon2 {
+    height: 150px;
+    width: auto;
     float: left;
     margin-left: 25%;
 }
 
 #contactIcon3 {
+    height: 150px;
+    width: auto;
     float: right;
     margin-right: 10%;
 }
 
 #sonnenFrau {
+    height: 200px;
+    width: auto;
     float: right;
     margin-right: 10%;
 }
 
 #superSonnenFrau {
+    height: 200px;
+    width: auto;
     float: left;
     margin-left: 10%;
 }
@@ -151,6 +162,11 @@ h6 {
 
 #comparisonHeader {
     font-weight: bold;
+}
+
+#maps {
+    width: 100%;
+    height: 450px;
 }
 
 
